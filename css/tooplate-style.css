@@ -103,6 +103,18 @@ b, strong {
   color: #ffffff !important;
 }
 
+.multicolor-svg {
+  fill: #474559;
+}
+
+.multicolor-svg:hover {
+  fill: #ffc200;
+}
+
+svg:hover {
+  fill: red;
+}
+
 .animated {
   position: relative;
 }
@@ -110,7 +122,6 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
   min-width: 260px;
   position: relative;
 }
@@ -120,7 +131,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 23px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -413,6 +424,11 @@ b, strong {
 
 .google-map iframe {
   width: 100%;
+}
+
+.about-image-container{
+	display: flex;
+    align-items: center;
 }
 
 .contact-form {

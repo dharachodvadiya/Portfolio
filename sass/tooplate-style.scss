@@ -482,7 +482,10 @@ b, strong {
 	}
 }
 
-
+.about-image-container{
+	display: flex;
+    align-items: center;
+}
 // CONTACT FORM
 .contact-form {
 	position: relative;
