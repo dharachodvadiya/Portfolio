@@ -149,6 +149,17 @@ svg:hover {
   animation-delay: 4s;
 }
 
+.logo-img {
+  border-radius: 20%;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+}
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -481,6 +492,9 @@ svg:hover {
   color: #ffc200;
 }
 
+.error-text {
+  color: red;
+}
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
